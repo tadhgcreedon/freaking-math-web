@@ -1,0 +1,182 @@
+body {
+    background-color: #1d3549;
+    color: white;
+    font-family: sans-serif;
+    font-size: 200%;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: red;
+}
+
+button {
+    position: relative;
+    display: inline;
+    -webkit-appearance: none;
+    border: 0;
+    background-color: white;
+    width: 48.5%;
+    border-radius: 5px;
+    height: 36%;
+    border-bottom: 5px solid gray;
+}
+
+#title_text {
+    text-align: center;
+    font-size: 200%;
+}
+
+#title_text_web {
+    font-family: monospace;
+}
+
+#play_game {
+    display: block;
+    font-size: 200%;
+    padding: 0.5%;
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 100px;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 5px solid gray;
+}
+#play_game:hover {
+    color: blue;
+}
+#play_game:active {
+    border-color: darkblue;
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: gray;
+    text-align: center;
+    width: 100%;
+}
+
+#time_out {
+    position: absolute;
+    background-color: transparent;
+    width: 75%;
+    top: 7.5%;
+    left: 12.5%;
+    display: none;
+}
+
+#time_out_text {
+    text-align: center;
+    background-color: #1d3549;
+    color: gray;
+    border-radius: 5px;
+    border-bottom: 5px solid #142533;
+    padding: 1%;
+    height: 60%;
+}
+
+#time_out_text h2 {
+    color: white;
+}
+
+#new_score, #best_score {
+    color: white;
+    font-weight: bold;
+}
+
+#time_out a {
+    width: 35%;
+    font-size: 150%;
+    position: relative;
+    top: 10px;
+    color: blue;
+    padding: 1%;
+    background-color: white;
+    border-bottom: 5px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+#time_out a:active {
+    background-color: blue;
+    color: white;
+    border-color: darkblue;
+}
+
+#play_again {
+    float: left;
+    margin-left: 14%;
+}
+
+#main_menu {
+    float: right;
+    margin-right: 14%;
+}
+
+#timer {
+    height: 2.5%;
+}
+
+#timer_elapsed {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#score_sound_section {
+    padding: 0 0.5% 0 0.5%;
+}
+
+#toggle_sound, #score {
+    display: inline;
+}
+
+#toggle_sound {
+    visibility: hidden;
+}
+
+#score {
+    float: right;
+    font-weight: bold;
+}
+
+#equation {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    height: 55%;
+}
+
+#answer_buttons button {
+    font-size: 700%;
+}
+
+#answer_correct {
+    margin-left: 1%;
+    color: blue;
+}
+#answer_correct:active {
+    background-color: blue;
+    color: white;
+    border-color: darkblue;
+}
+
+#answer_false {
+    float: right;
+    margin-right: 1%;
+    color: red;
+}
+#answer_false:active {
+    background-color: red;
+    color: white;
+    border-color: darkred;
+}

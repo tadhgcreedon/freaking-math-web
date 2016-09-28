@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="time_out">
+            <section id="time_out_text">
+                <h2 id="game_over_text"></h2>
+                New <span id="new_score"></span>
+                <br />
+                Best <span id="best_score"></span>
+            </section>
+            <a id="play_again" href="./game.html"><span class="glyphicon glyphicon-play"></a>
+            <a id="main_menu" href="./index.html"><span class="glyphicon glyphicon-th-list"></a>
+        </div>
+        <header>
+            <div id="timer"><div id="timer_elapsed"></div></div>
+            <section id="score_sound_section">
+                <aside id="toggle_sound">Speaker icon</aside>
+                <aside id="score">0</aside>
+            </section>
+        </header>
+        <section id="equation">
+            <span id="first_number"></span>+<span id="second_number"></span>
+            <br />
+            =&nbsp;<span id="sum"></span>
+        </section>
+        <section id="answer_buttons">
+            <button id="answer_correct"><span class="glyphicon glyphicon-ok"></button>
+            <button id="answer_false"><span class="glyphicon glyphicon-remove"></button>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
